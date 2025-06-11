@@ -1,6 +1,17 @@
 # TextFlow
 
-**TextFlow** is a character-level language model that learns to generate human-like names from raw text. The project demonstrates a progressive deep learning pipeline that evolves from simple statistical models to sophisticated neural architectures like WaveNet.
+## ✦ About
+
+**TextFlow** is a deep learning project that explores the evolution of character-level language models, culminating in a WaveNet-inspired architecture capable of generating realistic, novel names.
+
+What began as a simple bigram frequency model grew into a layered neural pipeline — from basic MLPs to dilated convolutional networks — each improving upon the last in both loss and linguistic complexity. 
+
+The project is a study in architectural progression, custom PyTorch implementation, and hands-on experimentation with generative modeling.
+
+Rather than relying on high-level libraries, most components were built from scratch — allowing deeper understanding of tokenization, batching, embeddings, and model internals.
+
+The final model produces outputs that resemble human names in style, phonetics, and structure — blending linguistic coherence with generative creativity.
+
 
 ---
 
@@ -88,3 +99,9 @@ text-flow/
 ```
 <!-- TREEVIEW END -->
 ---
+
+## ✦ Acknowledgment
+
+This project is heavily inspired by the brilliant [Zero to Hero: Neural Networks](https://www.youtube.com/watch?v=PaCmpygFfXo&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=2) series by [Andrej Karpathy](https://github.com/karpathy).
+
+The core training flow, batching strategy, and model progression follow the hands-on walkthrough taught in the videos. This repository serves as a personal deep-dive, with minor modifications, additional experiments, and a stronger focus on code clarity and packaging.
